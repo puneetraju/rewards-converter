@@ -3,7 +3,7 @@ public class RewardValue {
     private double milesValue;
     private static final double MILES_TO_CASH_RATE = 0.0035;
 
-    // Constructor for cash value
+    // Constructor for  the cash value
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
         this.milesValue = cashValue / MILES_TO_CASH_RATE;
